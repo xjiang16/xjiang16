@@ -20,16 +20,15 @@ This unique background means I don't just write code; I architect solutions that
 #### 🏙️ [Austin Airbnb Data Pipeline](https://github.com/xjiang16/austin-airbnb-data-pipeline)
 **Stack: Python (Pandas), PostgreSQL, SQL**
 > Built a production-style data pipeline to transform raw Airbnb listing data into a clean, queryable dataset.
-
-**Key Features:**
-- **ETL Pipeline:** Processes 10K+ listings from compressed raw data into structured format  
-- **Data Cleaning:** Reduced 79 raw columns to 18 high-impact features with consistent types and null handling  
-- **Data Validation:** Enforced checks for empty datasets, null values, and duplicate IDs  
-- **Staging + Upsert Design:**  
-  - Loads data into a staging table  
-  - Performs conflict-aware upserts into the main table using PostgreSQL  
-- **Environment-Based Configuration:** Database settings managed via `.env`  
-- **Logging & Observability:** Structured logs across pipeline stages  
+> **Key Features:**
+> - **ETL Pipeline:** Processes 10K+ listings from compressed raw data into structured format  
+> - **Data Cleaning:** Reduced 79 raw columns to 18 high-impact features with consistent types and null handling  
+> - **Data Validation:** Enforced checks for empty datasets, null values, and duplicate IDs  
+> - **Staging + Upsert Design:**  
+       - Loads data into a staging table  
+       - Performs conflict-aware upserts into the main table using PostgreSQL
+> - **Environment-Based Configuration:** Database settings managed via `.env`  
+> - **Logging & Observability:** Structured logs across pipeline stages  
 
 #### 🧱 [LEGO Portfolio Tracker](https://github.com/xjiang16/lego-portfolio-api)
 **Stack: Python, RESTful APIs, JSON**
