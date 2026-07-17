@@ -53,9 +53,9 @@ This unique background means I don't just write code; I architect solutions that
 
 ### ⚡ The Quick Stats
 * **🔭 I’m currently working on:** Building a **Job Market Tracker** pipeline (Adzuna API → Snowflake → dbt → Airflow) to surface trends in data engineering hiring.
-* **🌱 I’m currently learning:** Snowflake data warehousing and Airflow orchestration.
+* **🌱 I’m currently learning:** Snowflake data warehousing and Airflow orchestration. I am also preparing to receive my **AWS Certified Data Engineer - Associate (DEA-C01)** and potentially the **Google Cloud Engineering Certificate**.
 * **💬 Ask me about:** How I went from **Education at UPenn** to **AI at UTSA**, or why I treat **LEGO sets** like a serious investment portfolio.
-* **⚡ Fun fact:** I’m currently training for a **sub-30 minute 5k**! 🏃‍♀️ If I’m not coding, I’m probably checking the ROI on a retired LEGO set or playing Fortnite 🎮👾🕹️.
+* **⚡ Fun fact:** I’m currently training for a **sub-30 minute 5k**! 🏃‍♀️ If I’m not coding, I’m probably checking the ROI on a retired LEGO set or playing Fortnite 🎮.
 
 ### 🏁 Beyond the Code
 * **5k Training:** 🏃‍♀️ Chasing that sub-30 minute time.
