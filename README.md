@@ -12,10 +12,20 @@ This unique background means I don't just write code; I architect solutions that
 | :--- | :--- |
 | **Languages** | `Python` (Advanced) • `SQL` (PostgreSQL) • `Java` |
 | **Backend & Cloud** | `Flask` • `REST APIs` • `Docker` 🐳 • `AWS (EC2, S3)` ☁️ |
-| **Data & AI** | `ETL Pipelines` • `TensorFlow` • `Pandas` • `MobileNetV2` 🧠 |
+| **Data & AI** | `ETL/ELT Pipelines` • `TensorFlow` • `Pandas` • `MobileNetV2` 🧠 |
 | **Process** | `Git/GitHub` • `System Design` • `Unit Testing` 🧪 • `Data Validation`|
 
 ### 🚀 Featured Projects
+#### 📊 [Job Market Tracker](https://github.com/xjiang16/job-market-tracker)
+**Stack: Python, Adzuna API, Snowflake, dbt, Airflow**
+> 🚧 In active development. A data pipeline tracking DE job market trends —
+> ingests postings across multiple keywords and locations, lands them in
+> Snowflake, transforms with dbt, and will be orchestrated end-to-end with
+> Airflow.
+> **Built so far:**
+> - Ingestion script pulling postings across multiple job titles and locations
+> - Secure credential handling via environment variables
+> - Dated raw JSON output, ready for warehouse loading
 
 #### 🏙️ [Austin Airbnb Data Pipeline](https://github.com/xjiang16/austin-airbnb-data-pipeline)
 **Stack: Python (Pandas), PostgreSQL, SQL**
@@ -42,10 +52,10 @@ This unique background means I don't just write code; I architect solutions that
 > * **Result:** Achieved 70% accuracy with a scalable pipeline ready for cloud or local deployment.
 
 ### ⚡ The Quick Stats
-* **🔭 I’m currently working on:** Expanding my **Austin Airbnb Pipeline** to include Airflow for orchestration and Docker for multi-container deployment.
-* **🌱 I’m currently learning:** Advanced **System Design** and **Cloud Infrastructure** to build highly available backend architectures.
+* **🔭 I’m currently working on:** Building a **Job Market Tracker** pipeline (Adzuna API → Snowflake → dbt → Airflow) to surface trends in data engineering hiring.
+* **🌱 I’m currently learning:** Snowflake data warehousing and Airflow orchestration.
 * **💬 Ask me about:** How I went from **Education at UPenn** to **AI at UTSA**, or why I treat **LEGO sets** like a serious investment portfolio.
-* **⚡ Fun fact:** I’m currently training for a **sub-30 minute 5k**! 🏃‍♀️ If I’m not coding, I’m probably checking the ROI on a retired LEGO set.
+* **⚡ Fun fact:** I’m currently training for a **sub-30 minute 5k**! 🏃‍♀️ If I’m not coding, I’m probably checking the ROI on a retired LEGO set or playing Fortnite 🎮👾🕹️.
 
 ### 🏁 Beyond the Code
 * **5k Training:** 🏃‍♀️ Chasing that sub-30 minute time.
