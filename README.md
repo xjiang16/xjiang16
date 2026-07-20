@@ -11,21 +11,26 @@ This unique background means I don't just write code; I architect solutions that
 | Category | Tools & Technologies |
 | :--- | :--- |
 | **Languages** | `Python` (Advanced) • `SQL` (PostgreSQL) • `Java` |
-| **Backend & Cloud** | `Flask` • `REST APIs` • `Docker` 🐳 • `AWS (EC2, S3)` ☁️ |
-| **Data & AI** | `ETL/ELT Pipelines` • `TensorFlow` • `Pandas` • `MobileNetV2` 🧠 |
+| **Data Engineering** | `Snowflake` • `dbt` • `Apache Airflow` • `ETL/ELT Pipelines` |
+| **Backend** | `Flask` • `REST APIs` |
+| **Cloud & DevOps** | `Docker` 🐳 • `AWS (EC2, S3)` ☁️ |
+| **Data Science & AI** | `Pandas` • `TensorFlow` • `MobileNetV2` 🧠 |
 | **Process** | `Git/GitHub` • `System Design` • `Unit Testing` 🧪 • `Data Validation`|
 
 ### 🚀 Featured Projects
-#### 📊 [Job Market Tracker](https://github.com/xjiang16/job-market-tracker)
+#### 📊 [Data Engineering Job Market Tracker](https://github.com/xjiang16/job-market-tracker)
 **Stack: Python, Adzuna API, Snowflake, dbt, Airflow**
-> 🚧 In active development. A data pipeline tracking DE job market trends —
-> ingests postings across multiple keywords and locations, lands them in
-> Snowflake, transforms with dbt, and will be orchestrated end-to-end with
-> Airflow.
-> **Built so far:**
-> - Ingestion script pulling postings across multiple job titles and locations
-> - Secure credential handling via environment variables
-> - Dated raw JSON output, ready for warehouse loading
+> A full data pipeline tracking data engineering job market trends — ingests postings across
+> multiple keywords and locations, lands them in Snowflake, transforms and deduplicates with dbt,
+> and runs end-to-end daily via Airflow.
+> **[🔗 View live results](https://xjiang16.github.io/job-market-tracker/)**
+>
+> **Built:**
+> - Multi-keyword, multi-location ingestion from the Adzuna API
+> - Snowflake warehouse with raw + analytics layers
+> - dbt models for deduplication and skill-mention extraction, with automated data quality tests
+> - Airflow DAG orchestrating the full pipeline daily
+> - Public results page summarizing real findings from live data
 
 #### 🏙️ [Austin Airbnb Data Pipeline](https://github.com/xjiang16/austin-airbnb-data-pipeline)
 **Stack: Python (Pandas), PostgreSQL, SQL**
