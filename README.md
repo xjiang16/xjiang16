@@ -23,7 +23,7 @@ This unique background means I don't just write code; I architect solutions that
 > A full data pipeline tracking data engineering job market trends — ingests postings across
 > multiple keywords and locations, lands them in Snowflake, transforms and deduplicates with dbt,
 > and runs end-to-end daily via Airflow.
-> **[🔗 View live results](https://xjiang16.github.io/job-market-tracker/)**
+> **[🔗 View daily updated results](https://xjiang16.github.io/job-market-tracker/)**
 >
 > **Built:**
 > - Multi-keyword, multi-location ingestion from the Adzuna API
